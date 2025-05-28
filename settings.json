@@ -8,6 +8,7 @@
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.guides.bracketPairs": true,
+  "editor.minimap.enabled": false,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
