@@ -126,9 +126,9 @@ Use the following `settings.json` file to replicate your preferences. Save it in
   "git.enableCommitSigning": false,
   "git.enableSmartCommit": true,
   "git.postCommitCommand": "sync",
-  "gitlab-mr.accessToken": "YaCHhwXwby1zwyvsP22w",
+  "gitlab-mr.accessToken": "",
   "gitlab-mr.accessTokens": {
-    "https://git.panasonic.aero/platform/": "YaCHhwXwby1zwyvsP22w"
+    "https://git.panasonic.aero/platform/": ""
   },
   "gitlab.showPipelineUpdateNotifications": true,
   "hediet.vscode-drawio.resizeImages": null,
