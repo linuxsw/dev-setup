@@ -1,7 +1,7 @@
 #!/bin/bash
 
 BASE_DIR="${1:-$HOME/Git}"
-IDENTITY_SCRIPT="$HOME/setup_git_commit_identity.sh"
+IDENTITY_SCRIPT="./setup_git_commit_identity.sh"
 
 if [ ! -f "$IDENTITY_SCRIPT" ]; then
   echo "❌ setup_git_commit_identity.sh not found at $IDENTITY_SCRIPT"

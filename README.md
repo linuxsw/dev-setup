@@ -37,7 +37,7 @@ Run this script once to apply the identity and commit hook setup across **all Gi
    ```bash
    ./setup_git_commit_identity.sh
    ```
-3. To apply to all repos in a folder:
+3. To apply to all repos in a folder(~/Git is the default):
    ```bash
    ./apply_git_identity_all_repos.sh ~/Git
    ```
@@ -53,7 +53,6 @@ This repository includes a `.gitignore` that excludes:
 - Python bytecode
 - VS Code workspace config
 - Shell history or temporary scripts
-
 
 ---
 
@@ -74,3 +73,7 @@ Use this to remove and regenerate `.git/config` in every repo under a directory 
 ```bash
 ./reset_all_local_git_config.sh ~/Git
 ```
+
+---
+
+## 🧹 VS Code settings

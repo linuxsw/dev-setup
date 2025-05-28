@@ -1,0 +1,69 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "git.autofetch": true,
+  "git.enableCommitSigning": false,
+  "git.enableSmartCommit": true,
+  "git.postCommitCommand": "sync", // optional
+  "gitlab-mr.accessToken": "YaCHhwXwby1zwyvsP22w",
+  "gitlab-mr.accessTokens": {
+    "https://git.panasonic.aero/platform/": "YaCHhwXwby1zwyvsP22w"
+  },
+  "gitlab.showPipelineUpdateNotifications": true,
+  "hediet.vscode-drawio.resizeImages": null,
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "left": {
+        "custom": {
+          "borderColor": "yellow",
+          "borderRadius": "5px",
+          "borderStyle": "solid",
+          "borderWidth": "0 0 0 3px"
+        }
+      },
+      "right": {
+        "custom": {
+          "borderColor": "yellow",
+          "borderRadius": "5px",
+          "borderStyle": "solid",
+          "borderWidth": "0 3px 0 0"
+        }
+      }
+    }
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "json.schemas": [],
+  "makefile.configureOnOpen": true,
+  "markdown-preview-enhanced.previewTheme": "github-dark.css",
+  "markdown.preview.fontFamily": "MesloLGS NF Regular",
+  "markdown.preview.fontSize": 16,
+  "prettier.jsxSingleQuote": true,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "redhat.telemetry.enabled": true,
+  "remote.SSH.connectTimeout": 1800,
+  "remote.SSH.remotePlatform": {
+    "coder-vscode.us-west-2.coder-dev.nextcloud.aero--parks1--k3s-node1-parks1": "linux",
+    "coder-vscode.us-west-2.coder-dev.nextcloud.aero--parks1--k3s-node1-parks1.node0": "linux",
+    "coder-vscode.workspaces-dev.nextcloud.aero--parks1--seungweon-first-10": "linux"
+  },
+  "ruff.configuration": "",
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "yaml.schemas": {
+    "/Users/seungweonpark/.vscode/extensions/continue.continue-1.0.9-darwin-arm64/config-yaml-schema.json": [
+      ".continue/**/*.yaml"
+    ]
+  }
+}
